@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+anthropic = "*"
+white-noise = "*"
+dj-database-url = "*"
+django-storages = "*"
+boto3 = "*"
+whitenoise = "*"
+python-dotenv = "*"
+celery = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
